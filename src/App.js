@@ -6,16 +6,18 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Barcelona" />
 
         <footer>
-          This project was coded by{" "}
-          <a href="/" target="_blank">
+          This project was coded by{""}
+          <a 
+          href="https:/elletamcdaniel.com" 
+          target="_blank">
             Elleta McDaniel
-          </a>{" "}
+          </a>{""}
           and is{" "}
           <a
-            href="/"
+            href="https://github.com/emcdanie"
             target="_blank"
           >
             open-sourced on GitHub
